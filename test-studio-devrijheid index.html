@@ -1,0 +1,2294 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Studio De Vrijheid</title>
+
+<!-- GOOGLE FONTS (shared by both tabs) -->
+<link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&family=Raleway:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+<style>
+  /* =========================
+     TAB NAVIGATION
+  ========================= */
+  * {
+    box-sizing: border-box;
+  }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .site-tabs {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+    padding: 14px 20px;
+
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+  }
+
+  .tab-btn {
+    padding: 10px 26px;
+
+    border: 2px solid #4A3C0E;
+    border-radius: 30px;
+
+    background: transparent;
+    color: #4A3C0E;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+
+    cursor: pointer;
+    transition: all 0.25s ease;
+  }
+
+  .tab-btn:hover {
+    background: #f0e3c9;
+  }
+
+  .tab-btn.active {
+    background: #4A3C0E;
+    color: #fff;
+    border-color: #4A3C0E;
+  }
+
+  .tab-panel {
+    display: none;
+  }
+
+  .tab-panel.active {
+    display: block;
+  }
+
+  @media (max-width: 480px) {
+    .tab-btn {
+      padding: 9px 18px;
+      font-size: 12px;
+    }
+  }
+</style>
+</head>
+<body>
+
+  <!-- TAB NAVIGATION -->
+  <nav class="site-tabs">
+    <button class="tab-btn active" data-tab="home">Home</button>
+    <button class="tab-btn" data-tab="portfolio">Portfolio</button>
+  </nav>
+
+  <!-- HOME TAB -->
+  <div id="tab-home" class="tab-panel active">
+    <!-- GOOGLE FONTS -->
+  
+
+    <script>
+
+    document.addEventListener("DOMContentLoaded", () => {
+
+      const animatedElements = document.querySelectorAll(
+        ".fade-up, .fade-left, .fade-right, .fade-scale"
+      );
+
+      const observer = new IntersectionObserver((entries) => {
+
+        entries.forEach(entry => {
+
+          if (entry.isIntersecting) {
+            entry.target.classList.add("active");
+          }
+
+        });
+
+      }, {
+        threshold: 0.15
+      });
+
+      animatedElements.forEach(el => observer.observe(el));
+
+    });
+
+    </script>
+    <section class="sv-page">
+
+      <!-- HERO SECTION -->
+      <section class="custom-split-section">
+
+        <div class="custom-split-container">
+
+          <!-- LEFT -->
+          <div class="custom-left fade-left">
+
+            <h2>
+              Maak je huis tot een duurzaam droomhuis
+            </h2>
+
+            <p>
+              Studio De Vrijheid helpt je om van jouw woning een plek te maken die rust,
+              karakter en functionaliteit perfect samenbrengt. Van slimme indelingen tot
+              tijdloos interieurdesign: ieder ontwerp wordt afgestemd op jouw manier van wonen,
+              met oog voor sfeer, licht en dagelijks comfort.
+
+              <br><br>
+
+              Of het nu gaat om een renovatie, verbouwing of complete make-over, je krijgt
+              persoonlijk interieuradvies dat niet alleen mooi is vandaag, maar ook
+              toekomstbestendig blijft voor de jaren die komen.
+            </p>
+
+            <a href="https://studiodevrijheid.nl/Contactformulier/index.php/" class="custom-btn">
+              Plan een kennismaking
+            </a>
+
+          </div>
+
+          <!-- RIGHT -->
+          <div class="custom-right fade-right">
+
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="Modern interieur">
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- SERVICES -->
+      <section class="services-section">
+
+        <div class="services-container">
+
+          <!-- DESKTOP VERSION -->
+          <div class="desktop-services">
+
+            <div class="services-heading fade-up">
+
+              <h2>Wat wij voor je doen</h2>
+
+              <p>
+                Van eerste schets tot volledige realisatie: wij begeleiden het hele traject.
+                Denk aan slimme indelingen, hoogwaardige materialen, maatwerkmeubilair en
+                een doordacht lichtplan. Alles wordt zorgvuldig afgestemd op jouw woning,
+                leefstijl en wensen.
+              </p>
+
+            </div>
+
+            <div class="services-grid">
+
+              <div class="service-card fade-up">
+
+                <div class="service-icon">
+                  <img src="https://runondata.nl/wp-content/uploads/2026/05/discussion-conversation-message-svgrepo-com.svg" alt="Interieuradvies">
+                </div>
+
+                <h3>Interieuradvies</h3>
+
+                <p>
+                  Een interieur dat volledig aansluit op jouw smaak en manier van leven.
+                  Met slimme keuzes creëren we rust, sfeer en een tijdloze uitstraling.
+                </p>
+
+              </div>
+
+              <div class="service-card fade-up">
+
+                <div class="service-icon">
+                  <img src="https://runondata.nl/wp-content/uploads/2026/05/houses-home-svgrepo-com.svg" alt="Verbouwbegeleiding">
+                </div>
+
+                <h3>Verbouwbegeleiding</h3>
+
+                <p>
+                  Van eerste idee tot uitvoering begeleiden we het complete traject.
+                  Zo behoud je overzicht en weet je zeker dat alles samenkomt.
+                </p>
+
+              </div>
+
+              <div class="service-card fade-up">
+
+                <div class="service-icon">
+                  <img src="https://runondata.nl/wp-content/uploads/2026/05/eco-ecology-environment-2-svgrepo-com.svg" alt="Duurzame keuzes">
+                </div>
+
+                <h3>Duurzame keuzes</h3>
+
+                <p>
+                  Tijdloos design en kwalitatieve materialen zorgen voor een interieur
+                  dat niet alleen mooi is vandaag, maar ook in de toekomst.
+                </p>
+
+              </div>
+
+            </div>
+
+          </div>
+
+          <!-- MOBILE VERSION -->
+          <div class="mobile-services">
+
+            <div class="services-heading fade-up">
+
+              <h2>Wat wij voor je doen</h2>
+
+              <p>
+                Van indeling en materiaalkeuzes tot verbouwbegeleiding en duurzame oplossingen:
+                wij helpen je een interieur te creëren dat rust, karakter en kwaliteit uitstraalt.
+              </p>
+
+            </div>
+
+            <div class="mobile-services-list">
+
+              <div class="mobile-service-row fade-up">
+
+                <div class="service-icon">
+                  <img src="https://runondata.nl/wp-content/uploads/2026/05/discussion-conversation-message-svgrepo-com.svg" alt="Interieuradvies">
+                </div>
+
+                <div>
+                  <h3>Interieuradvies</h3>
+
+                  <p>
+                    Slimme keuzes in sfeer, kleur en indeling voor een interieur dat echt bij je past.
+                  </p>
+                </div>
+
+              </div>
+
+              <div class="mobile-service-row fade-up">
+
+                <div class="service-icon">
+                  <img src="https://runondata.nl/wp-content/uploads/2026/05/houses-home-svgrepo-com.svg" alt="Verbouwbegeleiding">
+                </div>
+
+                <div>
+                  <h3>Verbouwbegeleiding</h3>
+
+                  <p>
+                    Van eerste idee tot uitvoering begeleiden we iedere stap van het traject.
+                  </p>
+                </div>
+
+              </div>
+
+              <div class="mobile-service-row fade-up">
+
+                <div class="service-icon">
+                  <img src="https://runondata.nl/wp-content/uploads/2026/05/eco-ecology-environment-2-svgrepo-com.svg" alt="Duurzame keuzes">
+                </div>
+
+                <div>
+                  <h3>Duurzame keuzes</h3>
+
+                  <p>
+                    Tijdloze materialen en duurzame oplossingen die jarenlang meegaan.
+                  </p>
+                </div>
+
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+      <!-- DUURZAAM -->
+      <section class="duurzaam-section">
+
+        <div class="duurzaam-container">
+
+          <div class="duurzaam-image fade-left">
+            <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200&auto=format&fit=crop" alt="Duurzaam wonen">
+          </div>
+
+          <div class="duurzaam-content fade-right">
+
+            <h2>Duurzaam wonen als uitgangspunt</h2>
+
+            <p>
+              Duurzaamheid is voor ons geen bijzaak maar het vertrekpunt van ieder ontwerp.
+              We kiezen bewust voor materialen, meubels en merken die lang meegaan en bijdragen
+              aan een gezonde leefomgeving. Door tijdloos design te combineren met slimme,
+              duurzame keuzes ontstaat een interieur dat niet alleen mooi oogt, maar ook
+              verantwoord voelt — vandaag én in de toekomst.
+            </p>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+        <section class="testimonials-section">
+
+        <div class="testimonials-container">
+
+            <div class="services-heading">
+            <h2>Wat klanten zeggen</h2>
+            </div>
+
+            <div class="testimonial-slider">
+
+            <!-- RADIO BUTTONS -->
+            <input type="radio" name="testimonial" id="t1" checked>
+            <input type="radio" name="testimonial" id="t2">
+            <input type="radio" name="testimonial" id="t3">
+            <!-- SLIDES -->
+            <div class="testimonial-track">
+
+                <!-- TESTIMONIAL 1 -->
+                <div class="testimonial-slide fade-scale">
+
+                <div class="testimonial-image">
+                    <img src="home-review.png" alt="Interieur project">
+                </div>
+
+                <div class="testimonial-card">
+
+                    <h3>Esther, Heemstede</h3>
+
+                    <p>
+    Na een teleurstellende ervaring met een architect lagen onze verbouwplannen al een tijdje stil. We hadden er al flink wat geld in gestoken, maar waren vooral gefrustreerd door het gebrek aan inspiratie. Toen Maaike voor het eerst bij ons thuis kwam, voelde het gelijk anders. Ze straalde energie en betrokkenheid uit, en stelde vragen die ons aan het denken zetten: welke elementen willen we benadrukken? Wat missen we? Hoe willen we anders? Hoe gebruiken we ruimtes nu?
+
+    <br><br>
+    Op basis van onze antwoorden kwam ze met een verrassend voorstel. Ik vertelde haar bijvoorbeeld hoe vervelend ik het vond dat de kinderen met hun vieze schoenen en jassen door de voordeur naar binnen komen. Maaike stelde voor om onze kleine garage om te toveren tot een praktische mudroom, simpel te realiseren met een deur tussen de garage en de keuken. Briljant in zijn eenvoud!
+    <br><br>
+
+    Ook adviseerde ze ons om de jaren '30 charme van ons huis te behouden, door minder uit te bouwen dan we oorspronkelijk van plan waren. Ze wees ons erop dat een grote uitbouw ons huis té recht toe recht aan zou maken. Dat inzicht heeft ons echt geholpen en we hebben haar advies met vertrouwen overgenomen.
+    Maaike heeft een uniek talent om de sterke punten van een huis te zien en deze op een subtiele, doordachte manier te benadrukken. Haar aanpak heeft ons niet alleen weer enthousiast gemaakt, maar ook een veel beter plan opgeleverd. We zijn ontzettend blij dat we haar hebben ingeschakeld!
+
+
+                    </p>
+
+                </div>
+
+                </div>
+
+                <!-- TESTIMONIAL 2 -->
+                <div class="testimonial-slide fade-scale">
+
+                <div class="testimonial-image">
+                    <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200&auto=format&fit=crop" alt="Modern interieur">
+                </div>
+
+                <div class="testimonial-card">
+
+                    <h3>Liselotte, Den Haag</h3>
+
+                    <p>
+                    Als Maaike jouw huis binnenloopt staat ze direct ‘aan’. Ze komt met praktische
+                    adviezen maar denkt ook conceptueel mee over de mogelijkheden om jouw huis goed
+                    in te richten, waarbij ze rekening houdt met ieders wensen.
+
+                    <br><br>
+
+                    Maaike hielp ons keuzes maken in kleuren, meubels en indeling waardoor ons interieur
+                    eindelijk één geheel werd in plaats van losse elementen. Ze luistert goed,
+                    geeft eerlijk advies en denkt op een creatieve manier mee.
+
+                    <br><br>
+
+                    Daarnaast vonden wij duurzaamheid belangrijk. Maaike weet vintage en design perfect
+                    te combineren waardoor je ook op een betaalbare manier een prachtig interieur kunt creëren.
+                    </p>
+
+                </div>
+
+                </div>
+
+                <!-- TESTIMONIAL 3 -->
+                <div class="testimonial-slide fade-scale">
+
+                <div class="testimonial-image">
+                    <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1200&auto=format&fit=crop" alt="Warm interieur">
+                </div>
+
+                <div class="testimonial-card">
+
+                    <h3>Tevreden klant, Aalsmeer</h3>
+
+                    <p>
+                    Maaike heeft mij enorm geïnspireerd. Ik liep toevallig tegen haar aan en was
+                    helemaal niet actief op zoek naar een interieurstylist. Toch heeft haar manier
+                    van kijken naar ruimtes en mogelijkheden mijn blik volledig veranderd.
+
+                    <br><br>
+
+                    Ze komt met verrassende ideeën waar ik zelf nooit aan gedacht zou hebben en weet
+                    precies hoe sfeer, indeling en uitstraling samenkomen in een interieur dat echt klopt.
+
+                    <br><br>
+
+                    Daarnaast is Maaike prettig in de omgang, duidelijk in haar communicatie en denkt
+                    ze op een rustige en creatieve manier met je mee. Haar stylingadvies is absoluut
+                    een aanrader als je jouw woning wilt vernieuwen of plannen wilt maken voor een
+                    stijlvol interieur.
+                    </p>
+
+                </div>
+
+                </div>
+
+            </div>
+
+            <!-- BULLETS -->
+            <div class="testimonial-nav">
+
+                <label for="t1"></label>
+                <label for="t2"></label>
+                <label for="t3"></label>
+            </div>
+
+            </div>
+    <!-- MOBILE TESTIMONIAL SLIDER -->
+    <div class="mobile-testimonials">
+
+      <!-- RADIO BUTTONS -->
+      <input type="radio" name="mobile-testimonial" id="mt1" checked>
+      <input type="radio" name="mobile-testimonial" id="mt2">
+      <input type="radio" name="mobile-testimonial" id="mt3">
+
+      <!-- TRACK -->
+      <div class="mobile-testimonial-track">
+
+        <!-- CARD 1 -->
+        <div class="mobile-testimonial-slide">
+
+          <div class="mobile-testimonial-image">
+            <img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?q=80&w=1200&auto=format&fit=crop" alt="">
+          </div>
+
+          <div class="mobile-testimonial-card">
+
+            <h3>Esther, Heemstede</h3>
+
+            <p>
+              Maaike bracht opnieuw rust in onze verbouwplannen.
+              Met slimme ideeën en praktische oplossingen wist ze perfect
+              sfeer en functionaliteit samen te brengen.
+
+              <br><br>
+
+              Dankzij haar keuzes bleef de karakteristieke uitstraling
+              van ons huis volledig behouden.
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 2 -->
+        <div class="mobile-testimonial-slide">
+
+          <div class="mobile-testimonial-image">
+            <img src="https://images.unsplash.com/photo-1494526585095-c41746248156?q=80&w=1200&auto=format&fit=crop" alt="">
+          </div>
+
+          <div class="mobile-testimonial-card">
+
+            <h3>Liselotte, Den Haag</h3>
+
+            <p>
+              Maaike denkt praktisch én creatief mee.
+              Dankzij haar advies werden kleuren, meubels en indeling
+              eindelijk één rustig geheel.
+
+              <br><br>
+
+              Haar duurzame aanpak en eerlijke feedback maakten
+              echt het verschil voor ons interieur.
+            </p>
+
+          </div>
+
+        </div>
+
+        <!-- CARD 3 -->
+        <div class="mobile-testimonial-slide">
+
+          <div class="mobile-testimonial-image">
+            <img src="https://images.unsplash.com/photo-1484154218962-a197022b5858?q=80&w=1200&auto=format&fit=crop" alt="">
+          </div>
+
+          <div class="mobile-testimonial-card">
+
+            <h3>Tevreden klant</h3>
+
+            <p>
+              Maaike inspireerde mij direct met haar frisse blik
+              op ruimtes en interieurmogelijkheden.
+
+              <br><br>
+
+              Ze denkt rustig mee, communiceert helder
+              en komt met verrassend sterke ideeën.
+            </p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <!-- BULLETS -->
+      <div class="mobile-testimonial-nav">
+        <label for="mt1"></label>
+        <label for="mt2"></label>
+        <label for="mt3"></label>
+      </div>
+
+    </div>
+
+            <!-- CTA -->
+
+
+        </div>
+
+        </section>
+
+        <section class="contact-cta-section">
+                    <div class="contact-cta fade-up" id="contact">
+
+            <h2>Wil je kennismaken?</h2>
+
+            <p>
+                Plan vrijblijvend een gesprek en ontdek wat Studio De Vrijheid voor jouw woning kan betekenen.
+            </p>
+
+            <a href="https://studiodevrijheid.nl/Contactformulier/index.php/" class="custom-btn">
+                Neem contact op
+            </a>
+
+            </div>
+        </section>
+
+    </section>
+
+    <style>
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+    }
+
+    .sv-page {
+      width: 100%;
+      overflow: hidden;
+    }
+
+    /* GENERAL */
+    .custom-btn {
+      display: inline-block;
+
+      padding: 16px 36px;
+
+      background: transparent;
+      color: #4a3c0e;
+
+      text-decoration: none;
+
+      font-family: 'Raleway', sans-serif;
+      font-size: 16px;
+      font-weight: 300;
+
+      border-radius: 10px;
+
+      border-top: 2px solid black;
+      border-right: 2px solid black;
+      border-left: 1px solid black;
+      border-bottom: 1px solid black;
+
+      transition: all 0.3s ease;
+    }
+
+    .custom-btn:hover {
+      background: #000;
+      color: #fff;
+    }
+
+    /* HERO */
+    .custom-split-section {
+      width: 100%;
+      padding: 70px 20px;
+    }
+
+    .custom-split-container {
+      width: 100%;
+      max-width: 1400px;
+
+      margin: 0 auto;
+
+      display: flex;
+      align-items: center;
+      gap: 50px;
+    }
+
+    .custom-left {
+      width: 70%;
+    }
+
+    .custom-right {
+      width: 30%;
+    }
+
+    .custom-right img {
+      width: 100%;
+      display: block;
+      border-radius: 6px;
+    }
+
+    .custom-left h2,
+    .services-heading h2,
+    .duurzaam-content h2,
+    .contact-cta h2 {
+      font-family: 'Julius Sans One', sans-serif;
+      font-size: clamp(28px, 3vw, 52px);
+      line-height: 1.2;
+      color: #ffc600;
+      margin-bottom: 30px;
+      font-weight: 400;
+    }
+
+    .custom-left p,
+    .services-heading p,
+    .duurzaam-content p,
+    .testimonial-card p,
+    .contact-cta p {
+      font-family: 'Open Sans', sans-serif;
+      font-size: clamp(14px, 1.2vw, 18px);
+      line-height: 1.8;
+      color: #4A3C0E;
+      font-weight: 300;
+    }
+
+    .custom-left p {
+      margin-bottom: 45px;
+    }
+
+    /* SERVICES */
+    .services-section {
+      width: 100%;
+      padding: 70px 20px;
+      border-radius: 28px;
+      background-color: #eeeeee;
+    }
+
+    .services-container,
+    .duurzaam-container,
+    .testimonials-container {
+      width: 100%;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .desktop-services {
+      display: block;
+    }
+
+    .mobile-services {
+      display: none;
+    }
+
+    .services-heading {
+      margin-bottom: 50px;
+      max-width: 850px;
+    }
+
+    .services-grid {
+      display: flex;
+      gap: 25px;
+    }
+
+    .service-card {
+      width: 33.333%;
+      background: #fbe4d6;
+      padding: 35px 25px;
+      border-radius: 20px;
+
+      border-top: 2px solid #000;
+      border-right: 2px solid #000;
+      border-left: 1px solid #000;
+      border-bottom: 1px solid #000;
+    }
+
+    .service-icon img {
+      width: 50px;
+      height: 50px;
+    }
+
+    .service-card h3,
+    .mobile-service-row h3,
+    .testimonial-card h3 {
+      font-family: 'Raleway', sans-serif;
+      font-size: clamp(16px, 1.5vw, 24px);
+      margin-bottom: 18px;
+      font-weight: 400;
+    }
+
+    .service-card p,
+    .mobile-service-row p {
+      font-family: 'Raleway', sans-serif;
+      font-size: clamp(11px, 1vw, 16px);
+      line-height: 1.7;
+      font-weight: 300;
+    }
+
+    /* MOBILE SERVICES */
+    .mobile-services-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .mobile-service-row {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+
+      background: #fbe4d6;
+
+      padding: 16px;
+
+      border-radius: 14px;
+
+      border-top: 2px solid #000;
+      border-right: 2px solid #000;
+      border-left: 1px solid #000;
+      border-bottom: 1px solid #000;
+    }
+
+    /* DUURZAAM */
+    .duurzaam-section {
+      padding: 70px 20px;
+    }
+
+    .duurzaam-container {
+      display: flex;
+      align-items: center;
+      gap: 50px;
+    }
+
+    .duurzaam-image {
+      width: 40%;
+    }
+
+    .duurzaam-content {
+      width: 60%;
+    }
+
+    .duurzaam-image img {
+      width: 100%;
+      border-radius: 8px;
+      display: block;
+    }
+    /* TESTIMONIALS */
+  .testimonial-slider {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+  }
+
+
+  /* HIDE INPUTS */
+  .testimonial-slider input {
+    display: none;
+  }
+
+
+  /* TRACK */
+  .testimonial-track {
+    display: flex;
+    gap: 10px;
+    width: 300%;
+    align-items: stretch;
+
+    transition: transform 0.7s ease;
+
+    /* Leave room for navigation */
+    padding-bottom: 60px;
+  }
+
+
+  /* SLIDES */
+  .testimonial-slide {
+    width: 33.333%;
+
+    flex-shrink: 0;
+    display: flex;
+    position: relative;
+
+    padding-top: 0px;
+    padding-bottom: 20px;
+  }
+
+  .testimonials-section {
+    padding: 0px 00px 0;
+  }
+  /* IMAGE */
+  .testimonial-image {
+    position: absolute;
+
+    top: 30px;
+    left: 50%;
+
+    transform: translateX(-40%);
+
+    width: 450px;
+
+    z-index: 5;
+  }
+
+
+  .testimonial-image img {
+    width: 100%;
+    max-height: 250px;
+
+    object-fit: cover;
+    display: block;
+  }
+
+
+  /* CARD */
+  .testimonial-card {
+    background: #fbe4d6;
+
+    margin-left: 0px;
+    margin-right: 20px;
+
+    padding:
+      250px
+      40px
+      40px
+      40px;
+
+    text-align: left;
+
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+
+  .testimonial-card h3 {
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+
+    color: #4A3C0E;
+  }
+
+
+  .testimonial-card p {
+    font-family: 'Open Sans', sans-serif;
+
+    font-size: 17px;
+    line-height: 1.9;
+
+    color: #4A3C0E;
+
+    font-weight: 400;
+  }
+
+
+  /* BULLETS */
+  .testimonial-nav {
+    position: absolute;
+
+    left: 0;
+    right: 0;
+    bottom: 100px;
+
+    display: flex;
+    justify-content: center;
+
+    gap: 12px;
+
+    z-index: 100;
+  }
+
+
+  .testimonial-nav label {
+    width: 14px;
+    height: 14px;
+
+    border-radius: 50%;
+
+    background: transparent;
+
+    border: 2px solid #4A3C0E;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+  }
+
+
+  /* ACTIVE BULLET */
+  #t1:checked ~ .testimonial-nav label:nth-child(1),
+  #t2:checked ~ .testimonial-nav label:nth-child(2),
+  #t3:checked ~ .testimonial-nav label:nth-child(3) {
+    background: #4A3C0E;
+  }
+
+
+  /* SLIDER MOVEMENT */
+  #t1:checked ~ .testimonial-track {
+    transform: translateX(0%);
+  }
+
+  #t2:checked ~ .testimonial-track {
+    transform: translateX(-33.3333%);
+  }
+
+  #t3:checked ~ .testimonial-track {
+    transform: translateX(-66.6666%);
+  }
+
+
+    /* CTA */
+    .contact-cta {
+      text-align: center;
+      width: 100%;
+      /* max-width: 900px; */
+      border-radius: 28px;
+      /* margin: 100px auto 0 auto; */
+      background: #eee;
+      margin-top: 100px;
+      margin-bottom: 0px;
+      padding: 70px;
+
+      /* border-radius: 28px; */
+
+      /* border-top: 2px solid #000;
+      border-right: 2px solid #000;
+      border-left: 1px solid #000;
+      border-bottom: 1px solid #000; */
+    }
+
+    .contact-cta h2 {
+      margin-bottom: 22px;
+    }
+
+    .contact-cta p {
+      max-width: 650px;
+
+      margin:
+        0 auto
+        35px auto;
+
+      font-family: 'Raleway', sans-serif;
+
+      font-size: 18px;
+      line-height: 1.8;
+
+      color: #4A3C0E;
+
+      font-weight: 300;
+    }
+
+
+    @media (max-width: 768px) {
+
+      /* GLOBAL */
+      .custom-left h2,
+      .services-heading h2,
+      .duurzaam-content h2,
+      .contact-cta h2 {
+        font-size: 26px;
+        line-height: 1.15;
+        margin-bottom: 14px;
+      }
+
+      .custom-left p,
+      .services-heading p,
+      .duurzaam-content p,
+      .testimonial-card p,
+      .contact-cta p {
+        font-size: 14px;
+        line-height: 1.6;
+      }
+
+      .custom-btn {
+        padding: 12px 18px;
+        font-size: 13px;
+        border-radius: 10px;
+      }
+
+      /* HERO */
+      .custom-split-section {
+        padding: 26px 14px 36px;
+      }
+
+      .custom-split-container {
+        flex-direction: column-reverse;
+        gap: 18px;
+      }
+
+      .custom-left,
+      .custom-right {
+        width: 100%;
+      }
+
+      .custom-right img {
+        height: 210px;
+        object-fit: cover;
+        border-radius: 16px;
+      }
+
+      .custom-left p {
+        margin-bottom: 20px;
+      }
+
+      /* SERVICES */
+      .services-section {
+        padding: 38px 14px;
+        border-radius: 18px;
+      }
+
+      .desktop-services {
+        display: none;
+      }
+
+      .mobile-services {
+        display: block;
+      }
+
+      .services-heading {
+        margin-bottom: 18px;
+      }
+
+      .services-heading h2 {
+        padding-left: 0;
+      }
+
+      .mobile-services-list {
+        gap: 10px;
+      }
+
+      .mobile-service-row {
+        gap: 12px;
+
+        padding: 14px;
+
+        border-radius: 14px;
+      }
+
+      .mobile-service-row .service-icon img {
+        width: 34px;
+        height: 34px;
+      }
+
+      .mobile-service-row h3 {
+        font-size: 16px;
+        margin-bottom: 3px;
+      }
+
+      .mobile-service-row p {
+        font-size: 13px;
+        line-height: 1.45;
+      }
+
+      /* DUURZAAM */
+      .duurzaam-section {
+        padding: 38px 14px;
+      }
+
+      .duurzaam-container {
+        flex-direction: column;
+        gap: 18px;
+      }
+
+      .duurzaam-image,
+      .duurzaam-content {
+        width: 100%;
+      }
+
+      .duurzaam-image img {
+        height: 200px;
+        object-fit: cover;
+        border-radius: 16px;
+      }
+
+      /* TESTIMONIALS */
+      .testimonials-section {
+        padding: 38px 14px 0;
+      }
+
+      .testimonial-track {
+        gap: 0;
+      }
+
+      .testimonial-slide {
+        width: 100%;
+        flex-direction: column;
+
+        padding: 0 2px 6px;
+      }
+
+      .testimonial-image {
+        position: relative;
+
+
+
+        width: 100%;
+        height: 180px;
+
+        left: auto;
+        top: auto;
+
+        transform: none;
+
+        margin-bottom: 12px;
+      }
+
+      .testimonial-image img {
+        border-radius: 16px;
+        border-width: 3px;
+      }
+
+      .testimonial-card {
+        margin: 0;
+
+        padding: 18px 16px;
+
+        border-radius: 16px;
+      }
+
+      .testimonial-card h3 {
+        font-size: 17px;
+
+        margin-bottom: 10px;
+      }
+
+      .testimonial-card p {
+        font-size: 13px;
+        line-height: 1.55;
+      }
+
+      .testimonial-nav {
+        margin-top: 12px;
+        gap: 8px;
+      }
+
+      .testimonial-nav label {
+        width: 10px;
+        height: 10px;
+      }
+
+      /* CTA */
+      .contact-cta {
+        margin-top: 42px;
+
+        padding: 30px 18px;
+
+        border-radius: 18px;
+      }
+
+      .contact-cta h2 {
+        font-size: 26px;
+        margin-bottom: 12px;
+      }
+
+      .contact-cta p {
+        font-size: 14px;
+        line-height: 1.6;
+
+        margin-bottom: 20px;
+      }
+
+      /* ANIMATIONS */
+      .fade-up,
+      .fade-left,
+      .fade-right,
+      .fade-scale {
+        transition-duration: 0.55s;
+      }
+
+    }
+    /* DEFAULT */
+    .mobile-testimonials {
+      display: none;
+    }
+
+    /* MOBILE */
+    @media (max-width: 768px) {
+
+      /* DESKTOP OFF */
+      .testimonial-slider {
+        display: none;
+      }
+
+      /* MOBILE ON */
+      .mobile-testimonials {
+        display: block;
+
+        position: relative;
+
+        overflow: hidden;
+      }
+
+      .mobile-testimonials input {
+        display: none;
+      }
+
+      /* TRACK */
+      .mobile-testimonial-track {
+        display: flex;
+        align-items: stretch;
+        width: 300%;
+
+        transition: transform 0.6s ease;
+      }
+
+      /* SLIDES */
+      .mobile-testimonial-slide {
+        width: 33.333%;
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+
+        padding: 0 2px;
+      }
+
+      /* IMAGE */
+      .mobile-testimonial-image {
+        width: 100%;
+        height: 165px;
+
+        margin-bottom: 10px;
+      }
+
+      .mobile-testimonial-image img {
+        width: 100%;
+        height: 100%;
+
+        object-fit: cover;
+
+        border-radius: 16px;
+
+        border: 3px solid #fbe4d6;
+
+        display: block;
+      }
+
+      /* CARD */
+      .mobile-testimonial-card {
+        background: #fbe4d6;
+        flex: 1;
+        padding: 16px 15px;
+
+        border-radius: 16px;
+
+        border-top: 2px solid #000;
+        border-right: 2px solid #000;
+        border-left: 1px solid #000;
+        border-bottom: 1px solid #000;
+      }
+
+      .mobile-testimonial-card h3 {
+        font-family: 'Julius Sans One', sans-serif;
+
+        font-size: 16px;
+
+        margin-bottom: 10px;
+      }
+
+      .mobile-testimonial-card p {
+        font-size: 13px;
+        font-family: 'Raleway', sans-serif;
+        line-height: 1.55;
+
+        color: #4A3C0E;
+      }
+    
+
+      /* NAV */
+      .mobile-testimonial-nav {
+        display: flex;
+
+        justify-content: center;
+
+        gap: 8px;
+
+        margin-top: 14px;
+      }
+
+      .mobile-testimonial-nav label {
+        width: 10px;
+        height: 10px;
+
+        border-radius: 50%;
+
+        background: #d0c5b9;
+
+        cursor: pointer;
+      }
+
+      /* ACTIVE */
+      #mt1:checked ~ .mobile-testimonial-nav label:nth-child(1),
+      #mt2:checked ~ .mobile-testimonial-nav label:nth-child(2),
+      #mt3:checked ~ .mobile-testimonial-nav label:nth-child(3) {
+        background: #4A3C0E;
+      }
+
+      /* MOVEMENT */
+      #mt1:checked ~ .mobile-testimonial-track {
+        transform: translateX(0%);
+      }
+
+      #mt2:checked ~ .mobile-testimonial-track {
+        transform: translateX(-33.333%);
+      }
+
+      #mt3:checked ~ .mobile-testimonial-track {
+        transform: translateX(-66.666%);
+      }
+
+    }
+
+
+    /* =========================
+      SCROLL ANIMATIONS
+    ========================= */
+
+    .fade-up,
+    .fade-left,
+    .fade-right,
+    .fade-scale {
+      opacity: 0;
+      transition:
+        opacity 0.9s ease,
+        transform 0.9s ease;
+      will-change: opacity, transform;
+    }
+
+    .fade-up {
+      transform: translateY(50px);
+    }
+
+    .fade-left {
+      transform: translateX(-60px);
+    }
+
+    .fade-right {
+      transform: translateX(60px);
+    }
+
+    .fade-scale {
+      transform: scale(0.92);
+    }
+
+    .fade-up.active,
+    .fade-left.active,
+    .fade-right.active,
+    .fade-scale.active {
+      opacity: 1;
+      transform: translate(0,0) scale(1);
+    }
+
+    /* STAGGER EFFECTS */
+    .service-card:nth-child(2),
+    .mobile-service-row:nth-child(2),
+    .testimonial-slide:nth-child(2) {
+      transition-delay: 0.15s;
+    }
+
+    .service-card:nth-child(3),
+    .mobile-service-row:nth-child(3),
+    .testimonial-slide:nth-child(3) {
+      transition-delay: 0.3s;
+    }
+
+    </style>
+  </div>
+
+  <!-- PORTFOLIO TAB -->
+  <div id="tab-portfolio" class="tab-panel">
+  <!-- GOOGLE FONTS -->
+
+
+  <section class="portfolio-page">
+
+    <div class="portfolio-container">
+
+      <!-- HEADER -->
+      <div class="portfolio-heading">
+
+        <h1>Fotogalerij</h1>
+
+        <p>
+          Gerealiseerde projecten waar we trots op zijn
+        </p>
+
+      </div>
+
+      <!-- FILTERS -->
+      <div class="portfolio-filters">
+
+        <button class="filter-btn active filter-all" data-filter="all">
+          Alles
+        </button>
+
+        <button class="filter-btn" data-filter="woonkamer">
+          Woonkamer
+        </button>
+
+        <button class="filter-btn" data-filter="badkamer">
+          Badkamer
+        </button>
+
+        <button class="filter-btn" data-filter="keuken">
+          Keuken
+        </button>
+
+        <button class="filter-btn" data-filter="serre">
+          Serre
+        </button>
+
+        <button class="filter-btn" data-filter="hal">
+          Hal
+        </button>
+
+        <button class="filter-btn" data-filter="slaapkamer">
+          Slaapkamer
+        </button>
+
+      </div>
+
+      <!-- SLIDER -->
+      <div class="portfolio-slider-wrapper">
+
+        <!-- LEFT -->
+        <button class="portfolio-arrow left">
+          &#10094;
+        </button>
+
+        <!-- TRACK -->
+        <div class="portfolio-slider">
+
+          <div class="portfolio-track">
+
+            <!-- PROJECT 1: STUDIO DE VRIJHEID - KEUKEN -->
+            <article class="portfolio-card" data-category="keuken">
+
+              <div class="portfolio-image">
+
+                <div class="image-slider">
+
+                  <div class="image-track">
+
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-2.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-3.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-4.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-5.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-6.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-7.jpg" alt="Studio-de-Vrijheid project 1">
+                    <!-- <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-8.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-9.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-10.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-11.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-12.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-13.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-14.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-15.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-16.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-17.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-18.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-19.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-28.jpg" alt="Studio-de-Vrijheid project 1">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-25.jpg" alt="Studio-de-Vrijheid project 1"> -->
+                  </div>
+                  <div class="image-dots"></div>
+
+                </div>
+
+
+              </div>
+
+              <div class="portfolio-content">
+
+                <h3>Een keuken van rust</h3>
+
+                <p>
+                  Een keuken in zachte olijfgroene tonen, waar maatwerk kasten,
+                  natuursteen en persoonlijke accessoires samen een ruimte
+                  vormen die zowel stijlvol als levendig aanvoelt.
+                </p>
+
+              </div>
+
+            </article>
+
+            <!-- PROJECT 2: STUDIO DE VRIJHEID - WOONKEUKEN -->
+            <article class="portfolio-card" data-category="woonkamer">
+
+              <div class="portfolio-image">
+
+                <div class="image-slider">
+
+                  <div class="image-track">
+
+
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-20.jpg" alt="Studio-de-Vrijheid project 2">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-21.jpg" alt="Studio-de-Vrijheid project 2">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-22.jpg" alt="Studio-de-Vrijheid project 2">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-23.jpg" alt="Studio-de-Vrijheid project 2">
+
+                  </div>
+
+                  <div class="image-dots"></div>
+
+                </div>
+
+
+              </div>
+
+              <div class="portfolio-content">
+
+                <h3>Ontspanning en licht</h3>
+
+                <p>
+                  Een lichte woonkamer met een terracotta zitbank als warm middelpunt, 
+                  omringd door gouden accenten en sprekende kunst. 
+                  De erker brengt de tuin naar binnen en maakt van deze plek een zonnige hoek om te ontspannen.
+                </p>
+
+              </div>
+
+            </article>
+
+            <!-- PROJECT 3: STUDIO DE VRIJHEID - SERRE -->
+            <article class="portfolio-card" data-category="woonkamer">
+
+              <div class="portfolio-image">
+
+                <div class="image-slider">
+
+                  <div class="image-track">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-24.jpg" alt="Studio-de-Vrijheid project 3">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-29.jpg" alt="Studio-de-Vrijheid project 3">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-35.jpg" alt="Studio-de-Vrijheid project 3">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-36.jpg" alt="Studio-de-Vrijheid project 3">
+                    <!-- <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-37.jpg" alt="Studio-de-Vrijheid project 3">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-38.jpg" alt="Studio-de-Vrijheid project 3">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-39.jpg" alt="Studio-de-Vrijheid project 3">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-40.jpg" alt="Studio-de-Vrijheid project 3"> -->
+
+                  </div>
+
+                  <div class="image-dots"></div>
+
+                </div>
+
+
+              </div>
+
+              <div class="portfolio-content">
+
+                <h3>Rotan slaapkamer</h3>
+
+                <p>
+                  Een en-suite slaapkamer waar de slaapruimte naadloos overgaat in een badkamer met visgraat-betegelde douche. Het rotan hoofdbord en de zachte beddengoedkleuren maken van deze hoek een rustige retraite.
+                </p>
+
+              </div>
+
+            </article>
+
+            <!-- PROJECT 4: STUDIO DE VRIJHEID - POORT -->
+            <article class="portfolio-card" data-category="woonkamer">
+
+              <div class="portfolio-image">
+
+                <div class="image-slider">
+
+                  <div class="image-track">
+
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-41.jpg" alt="Studio-de-Vrijheid project 4">
+                    <!-- <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-42.jpg" alt="Studio-de-Vrijheid project 4">
+                    <img src="https://runondata.nl/wp-content/uploads/2026/06/Studio-de-Vrijheid-43.jpg" alt="Studio-de-Vrijheid project 4"> -->
+
+                  </div>
+
+                  <div class="image-dots"></div>
+
+                </div>
+
+
+              </div>
+
+              <div class="portfolio-content">
+
+                <h3>Poortdoorgang</h3>
+
+                <p>
+                  Door de karakteristieke gewelfde poort gaat het oude
+                  koetshuis over in een lichte, eigentijdse tuinkamer.
+                  Een mooi combinatie van geschiedenis en hedendaags wonen.
+                </p>
+
+              </div>
+
+            </article>
+
+            <article class="portfolio-card" data-category="woonkamer">
+
+              <div class="portfolio-image">
+
+                <div class="image-slider">
+
+                  <div class="image-track">
+
+                    <img src="https://studiodevrijheid.nl/.cm4all/uproc.php/0/.image00001_2.jpeg/picture-2600?_=192993e35a0" alt="Studio-de-Vrijheid project 5">
+
+                   </div>
+
+                  <div class="image-dots"></div>
+
+                </div>
+
+
+              </div>
+
+              <div class="portfolio-content">
+
+                <h3>Trappenhuis</h3>
+
+                <p>
+                  Een statige trapopgang met een lichtkoepel die het hele trappenhuis baadt in daglicht. Klassieke balustrades en een sierlijke hanglamp benadrukken het tijdloze karakter van het huis.
+                </p>
+
+              </div>
+
+            </article>
+
+  <article class="portfolio-card" data-category="keuken">
+
+              <div class="portfolio-image">
+
+                <div class="image-slider">
+
+                  <div class="image-track">
+
+                    <img src="https://studiodevrijheid.nl/.cm4all/uproc.php/0/.image00003_1.jpeg/picture-2600?_=192993f52c8" alt="Studio-de-Vrijheid project 6">
+
+                   </div>
+
+                  <div class="image-dots"></div>
+
+                </div>
+
+
+              </div>
+
+              <div class="portfolio-content">
+
+                <h3>Een licht keukeneiland</h3>
+
+                <p>
+  Een lichte leefkeuken waar terrazzo, visgraat parket en een marmeren eettafel elkaar ontmoeten. De gevlochten hanglampen en een schouw met droogbloemen geven de ruimte een warme, verfijnde uitstraling.              </p>
+
+              </div>
+
+            </article>
+
+  <article class="portfolio-card" data-category="badkamer">
+
+              <div class="portfolio-image">
+
+                <div class="image-slider">
+
+                  <div class="image-track">
+
+                    <img src="https://studiodevrijheid.nl/.cm4all/uproc.php/0/.LYI%20Studio%20de%20Vrijheid-43.jpg/picture-2600?_=194f4c15ae0" alt="Studio-de-Vrijheid project 6">
+
+                   </div>
+
+                  <div class="image-dots"></div>
+
+                </div>
+
+
+              </div>
+
+              <div class="portfolio-content">
+
+                <h3>Badkamer</h3>
+
+                <p>
+  Een badkamer onder de kap waar een organisch gevormde spiegel met sfeerverlichting de blikvanger is. Het zwevende wastafelmeubel, gevlochten accenten en zachte vloerkleden maken er een warme, hotelachtige plek van.
+                </p>
+
+              </div>
+
+            </article>
+          </div>
+        </div>
+
+        <!-- RIGHT -->
+        <button class="portfolio-arrow right">
+          &#10095;
+        </button>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <style>
+
+  * {
+    box-sizing: border-box;
+  }
+
+  #tab-portfolio {
+    margin: 0;
+    background: #fff;
+  }
+
+  .portfolio-page {
+    width: 100%;
+    padding: 80px 20px;
+  }
+
+  .portfolio-container {
+    width: 100%;
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  /* HEADING */
+  .portfolio-heading {
+    margin-bottom: 35px;
+    margin-left: 74px;
+  }
+
+  .portfolio-heading h1 {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: clamp(38px, 5vw, 70px);
+    color: #f0b400;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    font-weight: 400;
+  }
+
+  .portfolio-heading p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: #b88a00;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+
+  /* FILTERS */
+  .portfolio-filters {
+    display: flex;
+    gap: 18px;
+    flex-wrap: wrap;
+    margin-bottom: 45px;
+    margin-left: 74px;
+  }
+
+  .filter-btn {
+    min-width: 150px;
+
+    padding: 15px 24px;
+
+    border: 2px solid #f0b400;
+
+    background: transparent;
+    color: #f0b400;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+
+    cursor: pointer;
+
+    transition: 0.3s ease;
+  }
+
+  .filter-btn.active {
+    background: #f0b400;
+    color: #fff;
+  }
+
+  /* SLIDER */
+  .portfolio-slider-wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .portfolio-slider {
+    overflow: hidden;
+    width: 100%;
+  }
+
+  .portfolio-track {
+    display: flex;
+    gap: 24px;
+    transition: transform 0.5s ease;
+  }
+
+  .portfolio-card {
+    min-width: calc(50% - 12px);
+    background: transparent;
+  }
+
+  .portfolio-image {
+    width: 100%;
+    height: 420px;
+    overflow: hidden;
+  }
+
+  .portfolio-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .portfolio-content {
+    padding-top: 18px;
+  }
+
+  .portfolio-content h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 28px;
+    margin-bottom: 16px;
+    color: #2f2f2f;
+    font-weight: 600;
+  }
+
+  .portfolio-content p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    color: #444;
+    font-weight: 300;
+  }
+
+  /* ARROWS */
+  .portfolio-arrow {
+    width: 54px;
+    height: 54px;
+
+    border-radius: 50%;
+
+    border: 2px solid #f0b400;
+
+    background: #fff;
+    color: #f0b400;
+
+    font-size: 24px;
+
+    cursor: pointer;
+
+    flex-shrink: 0;
+
+    transition: 0.3s ease;
+  }
+
+  .portfolio-arrow:hover {
+    background: #f0b400;
+    color: #fff;
+  }
+
+  /* MOBILE */
+  @media (max-width: 768px) {
+
+    .portfolio-page {
+      padding: 40px 14px;
+    }
+
+    .portfolio-heading {
+      margin-bottom: 22px;
+      margin-left: 0px;
+    }
+
+    .portfolio-heading h1 {
+      font-size: 34px;
+      margin-bottom: 8px;
+    }
+
+    .portfolio-heading p {
+      font-size: 12px;
+      line-height: 1.5;
+    }
+
+    .portfolio-filters {
+      gap: 10px;
+      margin-bottom: 24px;
+      margin-left: 0px;
+    }
+
+    .filter-btn {
+      min-width: auto;
+
+      flex: 1;
+
+      padding: 11px 10px;
+
+      font-size: 12px;
+    }
+
+    .portfolio-slider-wrapper {
+      position: relative;
+      gap: 10px;
+    }
+
+    .portfolio-track {
+      gap: 12px;
+    }
+
+    .portfolio-card {
+      min-width: 100%;
+    }
+
+    .portfolio-image {
+      height: 240px;
+    }
+
+    .portfolio-content {
+      padding-top: 12px;
+    }
+
+    .portfolio-content h3 {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+
+    .portfolio-content p {
+      font-size: 13px;
+      line-height: 1.6;
+    }
+
+    .portfolio-arrow {
+      width: 42px;
+      height: 42px;
+      font-size: 18px;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 20;
+
+      background: rgba(255, 255, 255, 0.85);
+      backdrop-filter: blur(6px);
+    }
+
+    .portfolio-arrow.left {
+      left: 10px;
+    }
+
+    .portfolio-arrow.right {
+      right: 10px;
+    }
+
+    .filter-all {
+      width: 100%;
+      order: 999;
+    }
+
+  }
+  .image-slider {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .image-track {
+    display: flex;
+    height: 100%;
+    transition: transform 0.5s ease;
+  }
+
+  .image-track img {
+    min-width: 100%;
+    height: 420px;
+    object-fit: cover;
+    display: block;
+  }
+
+  /* DOTS INSIDE IMAGE (bottom overlay) */
+  .image-dots {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 6px;
+    z-index: 2;
+  }
+
+  .image-dot {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.5);
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .image-dot.active {
+    background: #f0b400;
+  }
+
+  /* mobile */
+  @media (max-width: 768px) {
+    .image-track img {
+      height: 240px;
+    }
+  }
+
+  </style>
+
+  <script>
+
+  const track = document.querySelector(".portfolio-track");
+  const cards = Array.from(document.querySelectorAll(".portfolio-card"));
+  const filterButtons = document.querySelectorAll(".filter-btn");
+
+  const prevBtn = document.querySelector(".portfolio-arrow.left");
+  const nextBtn = document.querySelector(".portfolio-arrow.right");
+
+  let currentIndex = 0;
+  let currentFilter = "all";
+
+  function getVisibleCards() {
+    return cards.filter(card => {
+      return currentFilter === "all" ||
+        card.dataset.category === currentFilter;
+    });
+  }
+
+  function renderSlider() {
+
+    const visibleCards = getVisibleCards();
+
+    cards.forEach(card => {
+      card.style.display =
+        visibleCards.includes(card)
+        ? "block"
+        : "none";
+    });
+
+    const cardsPerSlide = window.innerWidth <= 768 ? 1 : 2;
+
+    const offset =
+      currentIndex *
+      (track.parentElement.offsetWidth / cardsPerSlide + 12);
+
+    track.style.transform = `translateX(-${offset}px)`;
+
+  }
+
+  function maxIndex() {
+
+    const visibleCards = getVisibleCards();
+
+    const cardsPerSlide = window.innerWidth <= 768 ? 1 : 2;
+
+    return Math.max(
+      0,
+      visibleCards.length - cardsPerSlide
+    );
+
+  }
+
+  nextBtn.addEventListener("click", () => {
+
+    if (currentIndex < maxIndex()) {
+      currentIndex++;
+      renderSlider();
+    }
+
+  });
+
+  prevBtn.addEventListener("click", () => {
+
+    if (currentIndex > 0) {
+      currentIndex--;
+      renderSlider();
+    }
+
+  });
+
+  filterButtons.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+      filterButtons.forEach(btn =>
+        btn.classList.remove("active")
+      );
+
+      button.classList.add("active");
+
+      currentFilter = button.dataset.filter;
+
+      currentIndex = 0;
+
+      renderSlider();
+
+    });
+
+  });
+
+  window.addEventListener("resize", renderSlider);
+
+  renderSlider();
+
+  function initImageSliders() {
+
+    const cards = document.querySelectorAll(".portfolio-card");
+
+    cards.forEach(card => {
+
+      const track = card.querySelector(".image-track");
+      const images = card.querySelectorAll(".image-track img");
+      const dotsContainer = card.querySelector(".image-dots");
+
+      if (!track || images.length <= 1) return;
+
+      let index = 0;
+      let interval = null;
+      let isActive = false;
+
+      // create dots
+      images.forEach((_, i) => {
+
+        const dot = document.createElement("div");
+        dot.classList.add("image-dot");
+
+        if (i === 0) dot.classList.add("active");
+
+        dot.addEventListener("click", (e) => {
+          e.stopPropagation();
+          index = i;
+          update();
+        });
+
+        dotsContainer.appendChild(dot);
+      });
+
+      const dots = dotsContainer.querySelectorAll(".image-dot");
+
+      function update() {
+        track.style.transform = `translateX(-${index * 100}%)`;
+
+        dots.forEach(d => d.classList.remove("active"));
+        dots[index].classList.add("active");
+      }
+
+      function next() {
+        index = (index + 1) % images.length;
+        update();
+      }
+
+      function start() {
+        if (interval) return;
+        interval = setInterval(next, 5000);
+      }
+
+      function stop() {
+        clearInterval(interval);
+        interval = null;
+      }
+
+      function reset() {
+        stop();
+        index = 0;
+        update();
+      }
+
+      // 👇 ONLY ACTIVE ON HOVER
+      card.addEventListener("mouseenter", () => {
+        isActive = true;
+        start();
+      });
+
+      card.addEventListener("mouseleave", () => {
+        isActive = false;
+        reset();
+      });
+
+    });
+
+  }
+
+
+  initImageSliders();
+
+  </script>
+  </div>
+
+  <!-- TAB SWITCHING LOGIC -->
+  <script>
+    document.addEventListener("DOMContentLoaded", () => {
+      const tabButtons = document.querySelectorAll(".tab-btn");
+      const tabPanels = document.querySelectorAll(".tab-panel");
+
+      tabButtons.forEach(btn => {
+        btn.addEventListener("click", () => {
+          const target = btn.dataset.tab;
+
+          tabButtons.forEach(b => b.classList.remove("active"));
+          btn.classList.add("active");
+
+          tabPanels.forEach(panel => {
+            panel.classList.toggle("active", panel.id === "tab-" + target);
+          });
+
+          // re-trigger fade-in animations and slider layout for the newly shown tab
+          window.dispatchEvent(new Event("resize"));
+
+          document.querySelectorAll(".fade-up, .fade-left, .fade-right, .fade-scale")
+            .forEach(el => {
+              const rect = el.getBoundingClientRect();
+              if (rect.top < window.innerHeight && rect.bottom > 0) {
+                el.classList.add("active");
+              }
+            });
+        });
+      });
+
+      // support #portfolio / #home deep links
+      if (window.location.hash === "#portfolio") {
+        document.querySelector('.tab-btn[data-tab="portfolio"]').click();
+      }
+    });
+  </script>
+
+</body>
+</html>
